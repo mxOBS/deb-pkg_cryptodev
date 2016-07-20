@@ -1,0 +1,15 @@
+Source: cryptodev
+Section: kernel
+Priority: optional
+Maintainer: Josua Mayer <josua.mayer97@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/cryptodev.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/cryptodev.git;a=summary
+
+Package: cryptodev-dev
+Architecture: all
+Depends: ${misc:Depends}
+Description: cryptodev development package
+ Provides the cryptodev header files, to make use of cryptodev kernel device.
